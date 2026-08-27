@@ -48,16 +48,15 @@
   }
 
   .mark{
-    width: 56px; height: 56px;
+    width: 72px; height: 72px;
     margin: 0 auto 20px;
-    border-radius: 14px;
-    background: linear-gradient(135deg, var(--amber), var(--teal));
     display: flex; align-items:center; justify-content:center;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 500;
-    font-size: 15px;
-    color: #14171C;
-    letter-spacing: 0.02em;
+  }
+
+  .mark img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .handle{
@@ -245,7 +244,7 @@
 <div class="page">
 
   <div class="hero">
-    <div class="mark">TTC</div>
+    <div class="mark"><img src="ttc-logo.png" alt="Thomas Tech Connect"></div>
     <div class="handle">@thomastech2023</div>
     <h1>AI for the rest of us.</h1>
     <p>Nobody explained it to me either — so I'm figuring it out, on camera, tool by tool.</p>
